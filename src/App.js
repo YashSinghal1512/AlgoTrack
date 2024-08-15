@@ -17,7 +17,7 @@ function App() {
   const [topicProgress, setTopicProgress] = useState([]);
 
   useEffect(() => {
-    axios.get('https://algotrack-3uk9.onrender.com')
+    axios.get('http://localhost:5000/questions')
       .then(response => {
         setTopics(response.data);
         updateCounts(response.data);
