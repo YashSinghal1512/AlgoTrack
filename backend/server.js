@@ -8,7 +8,7 @@ const port = 5000;
 app.use(cors());
 app.use(express.json());
 
-mongoose.connect('mongodb://localhost:27017/dsa-tracker', {
+mongoose.connect('mongodb://300yashsinghal:mntFzMj4gjXVW7et@300yashsinghal/?ssl=true&replicaSet=atlas-h3pjqt-shard-0&authSource=admin&retryWrites=true&w=majority&appName=Cluster0', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
