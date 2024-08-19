@@ -17,7 +17,7 @@ function App() {
   const [topicProgress, setTopicProgress] = useState([]);
 
   useEffect(() => {
-    axios.get('mongodb://300yashsinghal:mntFzMj4gjXVW7et@300yashsinghal/?ssl=true&replicaSet=atlas-h3pjqt-shard-0&authSource=admin&retryWrites=true&w=majority&appName=Cluster0')
+    axios.get('https://algotrackbackend.onrender.com')
       .then(response => {
         setTopics(response.data);
         updateCounts(response.data);
