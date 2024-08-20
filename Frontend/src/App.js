@@ -17,7 +17,7 @@ function App() {
   const [topicProgress, setTopicProgress] = useState([]);
 
   useEffect(() => {
-    axios.get('https://algotrackbackend.onrender.com/questions')
+    axios.get('https://algotrackbackend.onrender.com')
       .then(response => {
         setTopics(response.data);
         updateCounts(response.data);
