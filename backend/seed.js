@@ -19,7 +19,7 @@ const questionSchema = new mongoose.Schema({
 });
 
 const Question = mongoose.model('Question', questionSchema);
-mongoose.connect('mongodb://localhost:27017/dsa-tracker', {
+mongoose.connect('mongodb+srv://360yashsinghal:fe3EupZMOT6G6b4Q@cluster0.dcycz.mongodb.net/?retryWrites=true', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
