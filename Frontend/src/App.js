@@ -17,7 +17,7 @@ function App() {
   const [topicProgress, setTopicProgress] = useState([]);
 
   useEffect(() => {
-    axios.get('https://algotrack-kpta.onrender.com')
+    axios.get('https://algotrack-kpta.onrender.com/questions')
       .then(response => {
         setTopics(response.data);
         updateCounts(response.data);
