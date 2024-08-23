@@ -17,5 +17,31 @@
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/dsa-tracker.git
-cd dsa-tracker
+git https://github.com/YashSinghal1512/AlgoTrack.git
+cd AlgoTrack
+
+
+###Run the Backend
+Navigate to the Backend directory:
+cd client
+
+### Seed the Database
+
+Before running the server, seed the database by running:
+
+```bash
+node seed.js
+### Start the Server
+After seeding the database, start the server:
+node server.js
+
+###Run the Frontend
+Navigate to the Frontend directory:
+cd Frontend
+
+Start the frontend development server:
+npm start
+
+Contributions are welcome! Please fork the repository and create a pull request with your changes.
+
+
