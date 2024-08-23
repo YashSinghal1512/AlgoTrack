@@ -1,6 +1,4 @@
-Here’s the entire README content formatted as one block of code:
 
-```markdown
 # Algo Track
 
 ## Overview
@@ -26,7 +24,7 @@ cd AlgoTrack
 
 ### Install Backend Dependencies
 
-Navigate to the Backend directory:
+Navigate to the backend directory and install the dependencies:
 
 ```bash
 cd backend
@@ -51,7 +49,7 @@ node server.js
 
 ### Run the Frontend
 
-Navigate to the Frontend directory:
+Navigate to the frontend directory:
 
 ```bash
 cd frontend
@@ -60,9 +58,9 @@ npm start
 ```
 
 
+
 ## Contributing
 
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
 ```
 
-T
