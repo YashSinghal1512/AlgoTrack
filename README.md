@@ -1,3 +1,6 @@
+Here’s the entire README content formatted as one block of code:
+
+```markdown
 # Algo Track
 
 ## Overview
@@ -17,13 +20,18 @@
 ### Clone the Repository
 
 ```bash
-git https://github.com/YashSinghal1512/AlgoTrack.git
+git clone https://github.com/YashSinghal1512/AlgoTrack.git
 cd AlgoTrack
+```
 
+### Install Backend Dependencies
 
-###Run the Backend
 Navigate to the Backend directory:
-cd client
+
+```bash
+cd backend
+npm install
+```
 
 ### Seed the Database
 
@@ -31,17 +39,30 @@ Before running the server, seed the database by running:
 
 ```bash
 node seed.js
+```
+
 ### Start the Server
+
 After seeding the database, start the server:
+
+```bash
 node server.js
+```
 
-###Run the Frontend
+### Run the Frontend
+
 Navigate to the Frontend directory:
-cd Frontend
 
-Start the frontend development server:
+```bash
+cd frontend
+npm install
 npm start
+```
+
+
+## Contributing
 
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
+```
 
-
+T
